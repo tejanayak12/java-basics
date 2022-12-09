@@ -38,4 +38,4 @@ typeof ('') // string;
 
 typeof (45>100) // boolean;
 
-
+typeof (100<5000) // boolean;

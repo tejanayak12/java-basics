@@ -25,3 +25,5 @@ String (99+1) // '100' true string;
 Number('23') + 7;  // 30;
 Number (89+1) // 90;
  
+Number (89+1) // 90;
+
