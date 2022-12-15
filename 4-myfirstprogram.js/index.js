@@ -10,7 +10,7 @@ const friends =[
     "satish"
 ]
 const myDetails = {
-    fullname : `${jatavath},${teja},${nayak}`,
+    fullname : `${intial},${firstname},${lastname}`,
     designation : "UI DEV",
     city : city,
     friends : friends
