@@ -20,6 +20,7 @@ const myDetails = {
 console.log(myDetails)
 
 
+
 // Javascript Runtime Environment
 // 1. Browser
 // 2. Node
