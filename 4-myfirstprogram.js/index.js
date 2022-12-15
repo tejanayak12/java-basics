@@ -16,6 +16,7 @@ const myDetails = {
     friends : friends
 }
 
+
 console.log(myDetails)
 
 
