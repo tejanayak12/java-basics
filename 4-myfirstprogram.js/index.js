@@ -8,13 +8,14 @@ const friends =[
     "harish",
     "ramesh",
     "satish"
-]
+];
+
 const myDetails = {
     fullname : `${intial},${firstname},${lastname}`,
     designation : "UI DEV",
     city : city,
     friends : friends
-}
+};
 
 
 console.log(myDetails)
