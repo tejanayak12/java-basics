@@ -1,0 +1,14 @@
+{
+  "name": "5-input-output",
+  "version": "1.0.0",
+  "description": "my program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "teja",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
