@@ -2,7 +2,7 @@ const readline = require("readline-sync");
 
 console.log("*****subraction on way******");
 
-const a = -readline.question("value of a =");
+const a = readline.question("value of a =");
 const b = Number(readline.question("value of b ="));
 
 console.log(`values ${a} is ${typeof a }`);
