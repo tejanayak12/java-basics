@@ -32,3 +32,19 @@ const anotherresult = excute(
 
 
 console.log(anotherresult);// ? { valueOne: 185, valueTwo: 298,452};
+
+
+const somenewresults = excute(
+
+    ()=>{
+        return 100/58
+    },
+    ()=>{
+        return 100*25
+    },
+    ()=>{
+        return 100-25
+    },
+);
+
+console.log(somenewresults);
