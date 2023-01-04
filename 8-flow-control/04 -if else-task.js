@@ -1,3 +1,11 @@
+// Traffic Lights
+/**
+1. Green    -> (Vehicle Can move / Go)
+2. Red      -> (Vehicle should be stop)
+3. Yellow   -> (vehicles can move but need go slow)
+ */
+
+
 import chalk from 'chalk';
 import readline from 'readline-sync';
 
