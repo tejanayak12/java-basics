@@ -1,0 +1,16 @@
+{
+  "name": "9-project-of-bike_sales",
+  "version": "1.0.0",
+  "description": "[![image](https://i0.wp.com/zeevector.com/wp-content/uploads/2020/05/Bajaj-Bikes-Logo-PNG.png?fit=1139%2C503&ssl=1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "teja nayak",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "type": "module"
+}
