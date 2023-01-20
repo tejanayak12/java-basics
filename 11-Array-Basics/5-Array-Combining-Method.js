@@ -17,8 +17,7 @@ const CollegeFriends = [
 console.log(SchoolFriends);
 console.log(CollegeFriends);
 
-let friends = (SchoolFriends)+(CollegeFriends);
+let friends = [...SchoolFriends,...CollegeFriends]
 
-friends.concat(...CollegeFriends,...SchoolFriends);
 
 console.log(friends);
