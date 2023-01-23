@@ -43,6 +43,15 @@ console.log(first_student);
 const last_student = all_frnds.pop();
 console.log(last_student);
 
+// Remove values from array (THese methods will modify original array);
+// .shift()   // return removed Value
+// .pop()     // return removed Value
+// .splice()  // return removed array of values
+
+
+const delete_students = all_students.splice(2, 1); // ['Apsar'];
+console.log(delete_students);
+console.log(all_students); // [ 'Shaik', 'Zahid', 'Rajesh
 
 /* Zakeer code 
 const students = [];
