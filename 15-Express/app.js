@@ -6,6 +6,11 @@
 const fs = require('fs');
 const express = require('express');
 const app = express();
+const bodyParser = require("body-parser");
+
+// Define app to use bodyParser middleware
+// Handling JSON payload requests
+app.use(bodyParser.json());
 
 function file_data(path){
     const data = fs.readFileSync(path);
@@ -46,6 +51,28 @@ app.get("/products/:productid",(request,response)=>{
     }else{
         response.json(product)
     }
+});
+
+app.post("/add-categories", (request , response)=>{
+        const requestbody = request.body; 
+        console.log("resquested body is ",requestbody);
+        const category = requestbody.category;
+
+        if(category){
+              // Inserting categories with .push() 
+              categories.push(category);
+              response.send({
+                processwas : true,
+                message : `new category was add ${category}`,
+                count : category.length
+              });
+
+        }else{
+            response.send({
+                processwas : false,
+                message: "please add a category"
+            })
+        }
 });
 
 app.listen(2000, ()=>{
