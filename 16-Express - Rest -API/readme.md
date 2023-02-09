@@ -102,3 +102,11 @@ app.delete(`${user_endpoint}/:id`,(request,response) => {
     })
 });
 ```
+### CRUD Operations on Users 
+
+1. **C**reate (Create a new user through **POST** API)
+2. **R**ead (Get user details through **GET** API)
+3. **U**pdate (Update user details through **PUT** API)
+4. **D**elete (Remove user from the system through **DELETE** API)
+
+![](https://miro.medium.com/max/1400/1*2eBdh0vLZjUyCDF6x1EqvQ.png)
